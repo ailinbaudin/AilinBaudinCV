@@ -5,7 +5,7 @@
         <rect x="0" y="0" width="960px" height="540px" fill="var(--surface-ground)"></rect>
         <path
             d="M0 331L26.7 321C53.3 311 106.7 291 160 291C213.3 291 266.7 311 320 329.5C373.3 348 426.7 365 480 373.2C533.3 381.3 586.7 380.7 640 373.8C693.3 367 746.7 354 800 341.2C853.3 328.3 906.7 315.7 933.3 309.3L960 303L960 541L933.3 541C906.7 541 853.3 541 800 541C746.7 541 693.3 541 640 541C586.7 541 533.3 541 480 541C426.7 541 373.3 541 320 541C266.7 541 213.3 541 160 541C106.7 541 53.3 541 26.7 541L0 541Z"
-            fill="var(--orange-500)"
+            fill="var(--blue-500)"
             strokeLinecap="round"
             strokeLinejoin="miter"
         ></path>
@@ -13,9 +13,9 @@
     <div class="px-5 min-h-screen flex justify-content-center align-items-center">
         <div class="z-1 text-center">
             <div class="text-900 font-bold text-8xl mb-4">Oops!</div>
-            <p class="line-height-3 mt-0 mb-5 text-700 text-xl font-medium">There is nothing here</p>
+            <p class="line-height-3 mt-0 mb-5 text-700 text-xl font-medium">Hubo un error.</p>
             <router-link to="/">
-                <Button type="button" class="font-medium cursor-pointer" raised severity="warning">Go to Dashboard</Button>
+                <Button type="button" class="font-medium cursor-pointer" raised severity="blue">¡Vamos al sitio!</Button>
             </router-link>
         </div>
     </div>

@@ -229,7 +229,7 @@ const scrollToSobreMi = () => {
                 <section>
                     <span class="block text-7xl font-bold mb-1">¡Bienvenido a mi sitio!</span>
                     <div class="text-6xl text-primary font-bold mb-3">Hola, soy Ailin Baudin</div>
-                    <p class="mt-0 mb-4 text-700 line-height-3">
+                    <span class="mt-0 mb-4 text-700 line-height-3">
                         Soy Frontend Developer, apasionada por diseñar y desarrollar experiencias web que sorprenden y
                         conectan. 🌐✨ <br>
                         Me destaco por mi <span class="titulo-destacado">versatilidad</span>, una cualidad que me
@@ -238,7 +238,7 @@ const scrollToSobreMi = () => {
                             Zamora</span> y he continuado profundizando mis conocimientos en diversas tecnologías.
                         En la siguiente sección encontrarás una lista de las herramientas con las que trabajo y para las
                         que me he capacitado, siempre en busca de seguir aprendiendo y mejorando.
-                    </p>
+                    </span>
                     <div class="flex flex-wrap gap-2 justify-content-center mobile-center">
                         <a href="https://www.linkedin.com/in/frontdeveloper-ailinbaudin/" target="_blank"
                             rel="noopener noreferrer">
