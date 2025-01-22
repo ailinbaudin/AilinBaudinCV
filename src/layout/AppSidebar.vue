@@ -33,7 +33,7 @@ const anchor = () => {
     <div class="layout-sidebar" @mouseenter="onMouseEnter" @mouseleave="onMouseLeave">
         <div class="sidebar-header">
             <router-link :to="{ name: 'e-commerce' }" >
-                <img src="public/demo/images/ecommerce/ailin2.png" alt="Logo de Ailin" class="app-logo-normal"  />
+                <img src="/demo/images/ecommerce/ailin2.png" alt="Logo de Ailin" class="app-logo-normal"  />
             </router-link>
             <button class="layout-sidebar-anchor p-link z-2 mb-2" type="button" @click="anchor()"></button>
         </div>
