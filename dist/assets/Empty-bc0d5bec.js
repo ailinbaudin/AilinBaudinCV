@@ -1,0 +1,1 @@
+import{_ as t,b as c,c as e,d as s}from"./index-a0301d80.js";const o={},a={class:"grid"},n=s("div",{class:"col-12"},[s("div",{class:"card"},[s("h5",null,"Empty Page"),s("p",null,"Use this page to start from scratch and place your custom content.")])],-1),r=[n];function _(d,l){return c(),e("div",a,r)}const p=t(o,[["render",_]]);export{p as default};

@@ -270,8 +270,7 @@ const scrollToSobreMi = () => {
                 En el pasado, participé en proyectos utilizando <span class="titulo-destacado">C</span> aplicados a la
                 robótica y al desarrollo con <span class="titulo-destacado">Arduino</span>, lo que despertó mi interés
                 por explorar más en este campo. En el futuro, me encantaría profundizar en la <span
-                    class="titulo-destacado">robótica</span>, combinando programación y tecnología para soluciones
-                innovadoras.
+                    class="titulo-destacado">robótica</span>, combinando programación y tecnología.
             </div>
         </div>
         <div class="surface-section md:px-6 lg:px-8 text-center">
