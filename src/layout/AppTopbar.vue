@@ -60,20 +60,7 @@ const onConfigButtonClick = () => {
         </div>
 
         <div class="topbar-end">
-            <ul class="topbar-menu">
-                <li class="topbar-search">
-                    <span class="p-input-icon-left">
-                        <i class="pi pi-search"></i>
-                        <InputText type="text" placeholder="Search" class="w-12rem sm:w-full" />
-                    </span>
-                </li>
-                <li class="ml-3">
-                    <Button icon="pi pi-cog" text rounded severity="secondary" @click="onConfigButtonClick"></Button>
-                </li>
-                <li class="topbar-profile">
-                    <Button type="button" class="p-link" @click="showProfileSidebar"><img src="/demo/images/avatar/avatar.png" alt="Profile" /></Button>
-                </li>
-            </ul>
+            
         </div>
     </div>
 </template>

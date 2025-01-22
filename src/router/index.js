@@ -12,7 +12,7 @@ const router = createRouter({
                     path: '/',
                     name: 'e-commerce',
                     meta: {
-                        breadcrumb: ['E-Commerce Dashboard']
+                        breadcrumb: ['Mi sitio']
                     },
                     component: () => import('@/views/dashboards/Ecommerce.vue')
                 },
