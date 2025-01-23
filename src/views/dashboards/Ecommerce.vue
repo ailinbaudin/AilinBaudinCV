@@ -222,7 +222,7 @@ const scrollToSobreMi = () => {
 }
 
 #botones{
-    padding-top: 3%;
+    padding-top: 5%;
 }
 </style>
 <template>
@@ -269,7 +269,7 @@ const scrollToSobreMi = () => {
                 Como profesional, siempre estoy buscando ampliar mis conocimientos y asumir nuevos retos. Aunque mi
                 enfoque principal es el desarrollo frontend, actualmente estoy estudiando backend para expandir mis
                 habilidades en áreas como <span class="titulo-destacado">Node.js</span> y la creación de <span
-                    class="titulo-destacado">APIs RESTful</span>. <br>
+                    class="titulo-destacado">APIs RESTful</span>.<br>
                 En el pasado, participé en proyectos utilizando <span class="titulo-destacado">C</span> aplicados a la
                 robótica y al desarrollo con <span class="titulo-destacado">Arduino</span>, lo que despertó mi interés
                 por explorar más en este campo. En el futuro, me encantaría profundizar en la <span
