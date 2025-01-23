@@ -197,6 +197,8 @@ const scrollToSobreMi = () => {
 };
 </script>
 <style scoped>
+
+
 #img {
     max-width: auto;
     max-height: 600px;
@@ -211,15 +213,16 @@ const scrollToSobreMi = () => {
     font-weight: bold;
 }
 
-# {
-    padding-top: 0%;
-    padding-bottom: 0%;
-}
+
 
 @media (max-width: 768px) {
     .mobile-center {
         justify-content: center;
     }
+}
+
+#botones{
+    padding-top: 3%;
 }
 </style>
 <template>
@@ -227,7 +230,7 @@ const scrollToSobreMi = () => {
         <div class="grid grid-nogutter surface-section text-800">
             <div class="col-12 md:col-6 p-6 text-center md:text-left flex align-items-center">
                 <section>
-                    <span class="block text-7xl font-bold mb-1">¡Bienvenido a mi sitio!</span>
+                    <span class="block text-6xl font-bold mb-1">¡Bienvenido a mi sitio!</span>
                     <div class="text-6xl text-primary font-bold mb-3">Hola, soy Ailin Baudin</div>
                     <span class="mt-0 mb-4 text-700 line-height-3">
                         Soy Frontend Developer, apasionada por diseñar y desarrollar experiencias web que sorprenden y
@@ -239,7 +242,7 @@ const scrollToSobreMi = () => {
                         En la siguiente sección encontrarás una lista de las herramientas con las que trabajo y para las
                         que me he capacitado, siempre en busca de seguir aprendiendo y mejorando.
                     </span>
-                    <div class="flex flex-wrap gap-2 justify-content-center mobile-center">
+                    <div id="botones" class="flex flex-wrap gap-2 justify-content-center mobile-center">
                         <a href="https://www.linkedin.com/in/frontdeveloper-ailinbaudin/" target="_blank"
                             rel="noopener noreferrer">
                             <Button label="Contactame" type="button" raised></Button>
