@@ -459,8 +459,8 @@ const router = createRouter({
         },
         {
             path: '/:pathMatch(.*)*',
-            name: 'notfound',
-            component: () => import('@/views/pages/NotFound.vue')
+            redirect: { name: 'e-commerce' },
+            component: () => import('@/views/dashboards/Ecommerce.vue')
         }
     ],
     scrollBehavior() {

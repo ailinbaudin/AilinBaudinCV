@@ -21,8 +21,8 @@ const navigateToDashboard = () => {
     <div class="px-5 min-h-screen flex justify-content-center align-items-center">
         <div class="z-1 text-center">
             <div class="text-900 font-bold text-8xl mb-4">ERROR</div>
-            <p class="line-height-3 mt-0 mb-5 text-700 text-xl font-medium">Something went wrong!</p>
-            <Button class="font-medium" severity="danger" raised @click="navigateToDashboard"> Go to Dashboard </Button>
+            <p class="line-height-3 mt-0 mb-5 text-700 text-xl font-medium">Ocurrio un error!</p>
+            <Button class="font-medium" severity="blue" raised @click="navigateToDashboard"> Vamos al sitio !</Button>
         </div>
     </div>
 </template>
