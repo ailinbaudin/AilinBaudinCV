@@ -433,7 +433,7 @@ const scrollToSobreMi = () => {
                 <div class="col-12 md:col-3 mt-4 md:mt-0">
                     <h4 class="font-medium text-xl line-height-3 mb-3 text-900">Repositorio</h4>
                     <a class="line-height-3 block cursor-pointer mb-2 text-700"
-                        href="https://github.com/palabrasafiladas" target="_blank">Github</a>
+                        href="https://github.com/ailinbaudin?tab=repositories" target="_blank">Github</a>
                 </div>
             </div>
         </div>
